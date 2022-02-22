@@ -3,7 +3,7 @@ import sys
 import os
 from PIL import Image #Importing PIL (Pillow)
 if os.geteuid()==0: #root check
-  print("Yodeck bootsplash changer -- Made by P.M.") #start screen
+  print("Yodeck bootsplash changer -- Made by N.M.") #start screen
 else:
   sys.exit("The program is not running as root!") 
 
